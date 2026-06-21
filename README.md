@@ -8,15 +8,14 @@ For the full profile-builder workflow, see the separate [wiobyrne/teacher](https
 This repo explains:
 
 - why the project exists
-- how the image is shared
+- how the starter image works
 - how to get started with the `teacher.md` profile
 
 ## Start here
 
-1. Read [Download the image](./IMAGE.md)
-2. Read [Where the image, updates, and source live](./DOWNLOAD.md)
-3. Read [Which model and why](./docs/model.md)
-4. Open [`teacher.md`](./teacher.md) if you are using the starter image, or use the separate `teacher` repo if you want the interview-style profile builder
+1. Read [the image and build recipe](./IMAGE.md)
+2. Open [`teacher.md`](./teacher.md) if you are using the starter image
+3. Use the separate [wiobyrne/teacher](https://github.com/wiobyrne/teacher) repo if you want the interview-style profile builder
 
 To learn more about the teacher profile format and how to build one, see the separate [wiobyrne/teacher](https://github.com/wiobyrne/teacher) repo.
 
@@ -69,10 +68,8 @@ That keeps `teacher.md` trustworthy as a living profile instead of letting it qu
 ## What you get in the repo
 
 - [`teacher.md`](./teacher.md) - starter teacher profile template
-- [`IMAGE.md`](./IMAGE.md) - where to download the starter image
-- [`DOWNLOAD.md`](./DOWNLOAD.md) - where to get the image, updates, and source
-- [`docs/model.md`](./docs/model.md) - the model choice and useful links
-- this `README.md` - overview, setup, and workflow
+- [`IMAGE.md`](./IMAGE.md) - what is on the image and how to build it
+- this `README.md` - overview and workflow
 
 ## What is not in the repo
 
@@ -84,10 +81,7 @@ That keeps `teacher.md` trustworthy as a living profile instead of letting it qu
 
 ## Suggested local model
 
-This setup was tested with:
-
-- `qwen2.5:1.5b`
-
+This setup was tested with `qwen2.5:1.5b`.
 You can use a different model if you want, but start small if you are using a Raspberry Pi.
 
 ## Privacy and safety
@@ -108,13 +102,3 @@ The Pi image is intended to be a clean starter image:
 - empty `history/`
 
 It should not ship with old chat history, saved outputs, or test crud.
-
-## Ways to improve later
-
-Good next improvements are:
-
-- a better `teacher.md` starter profile
-- a friendlier first-run experience
-- more example prompts for teachers
-- a clearer path for reviewing and refining the teacher profile over time
-- optional notes for people who want to build the image from source instead of downloading it
