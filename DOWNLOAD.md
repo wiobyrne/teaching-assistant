@@ -25,6 +25,7 @@ When published, the latest image is attached to the releases page:
 - empty `history/`
 
 `outputs/` and `memory.md` are not included. They are out of scope for v1.
+If you want the interview-based teacher profile builder, use the separate [wiobyrne/teacher](https://github.com/wiobyrne/teacher) repo.
 
 ## Why image and source are separate
 

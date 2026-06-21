@@ -22,6 +22,7 @@ The starter image includes:
 
 It does not include old testing history, saved outputs, or build leftovers.
 `outputs/` and `memory.md` are not part of the starter image.
+The interview-based teacher profile builder lives in the separate [wiobyrne/teacher](https://github.com/wiobyrne/teacher) repo.
 
 ## If you want the source instead
 

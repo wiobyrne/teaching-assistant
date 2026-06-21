@@ -3,6 +3,8 @@
 Teaching Assistant is a simple, local AI setup for teachers.
 It is meant to run on a Raspberry Pi or any machine where you can install [Ollama](https://ollama.com) and load a small model like `qwen2.5:1.5b`.
 
+For the full profile-builder workflow, see the separate [wiobyrne/teacher](https://github.com/wiobyrne/teacher) repo. This repo focuses on the local image, runtime, and starter files.
+
 This repo explains:
 
 - why the project exists
@@ -14,9 +16,9 @@ This repo explains:
 1. Read [Download the image](./IMAGE.md)
 2. Read [Where the image, updates, and source live](./DOWNLOAD.md)
 3. Read [Which model and why](./docs/model.md)
-4. Open [`teacher.md`](./teacher.md) to fill out your starter profile
+4. Open [`teacher.md`](./teacher.md) if you are using the starter image, or use the separate `teacher` repo if you want the interview-style profile builder
 
-To learn more about the teacher profile format and how to build one, see [github.com/wiobyrne/teacher](https://github.com/wiobyrne/teacher).
+To learn more about the teacher profile format and how to build one, see the separate [wiobyrne/teacher](https://github.com/wiobyrne/teacher) repo.
 
 ## What this is
 
@@ -77,6 +79,7 @@ That keeps `teacher.md` trustworthy as a living profile instead of letting it qu
 - the actual model files
 - the Raspberry Pi image itself
 - a replacement for Ollama
+- the interview-style teacher profile builder
 - student data
 
 ## Suggested local model
