@@ -7,16 +7,16 @@ This repo explains:
 
 - why the project exists
 - how the image is shared
-- how teachers use the `teacher.md` profile
-- how the assistant should behave over time
+- how to get started with the `teacher.md` profile
 
 ## Start here
 
 1. Read [Download the image](./IMAGE.md)
 2. Read [Where the image, updates, and source live](./DOWNLOAD.md)
 3. Read [Which model and why](./docs/model.md)
-4. Read [Why the teacher profile works this way](./docs/teacher-profile.md)
-5. Open [`teacher.md`](./teacher.md) to see the starter profile template
+4. Open [`teacher.md`](./teacher.md) to fill out your starter profile
+
+To learn more about the teacher profile format and how to build one, see [github.com/wiobyrne/teacher](https://github.com/wiobyrne/teacher).
 
 ## What this is
 
@@ -70,7 +70,6 @@ That keeps `teacher.md` trustworthy as a living profile instead of letting it qu
 - [`IMAGE.md`](./IMAGE.md) - where to download the starter image
 - [`DOWNLOAD.md`](./DOWNLOAD.md) - where to get the image, updates, and source
 - [`docs/model.md`](./docs/model.md) - the model choice and useful links
-- [`docs/teacher-profile.md`](./docs/teacher-profile.md) - the philosophy behind the profile workflow
 - this `README.md` - overview, setup, and workflow
 
 ## What is not in the repo
