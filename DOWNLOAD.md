@@ -1,53 +1,41 @@
-# Download the image
+# Downloads, source, and updates
 
-This page is the quick handoff for teachers who want the Raspberry Pi starter image, plus the source and update links.
+Quick links for teachers who want the Raspberry Pi starter image, the source, or update notes.
 
-## What to download
+## Get the image
 
-When the image is published, the latest version should be attached to the repo releases page:
+When published, the latest image is attached to the releases page:
 
 - Latest image: <https://github.com/wiobyrne/teaching-assistant/releases/latest>
+- Version notes: <https://github.com/wiobyrne/teaching-assistant/releases>
 
-If you want the source instead of the prebuilt image:
+## Get the source
 
 - Source repo: <https://github.com/wiobyrne/teaching-assistant>
+- Model info: <https://github.com/wiobyrne/teaching-assistant/blob/main/docs/model.md>
 
-If you want to know which model the image is built around:
-
-- Model page: <https://github.com/wiobyrne/teaching-assistant/blob/main/docs/model.md>
-
-## What the image is for
-
-The image is a clean, ready-to-flash Raspberry Pi starter:
+## What the image contains
 
 - Raspberry Pi OS
 - Ollama
-- a small local model
-- `teaching-assistant/`
+- `qwen2.5:1.5b`
+- `~/teaching-assistant/`
 - starter `teacher.md`
+- `ta.py`
 - empty `history/`
 
-It should not include old testing history, saved outputs, or hidden build leftovers.
+`outputs/` and `memory.md` are not included. They are out of scope for v1.
 
-## How to get updates
+## Why image and source are separate
 
-Use the repo releases page for the newest published image:
+Some people want a working download.
+Others want to inspect the files, adjust the profile, or rebuild for their own setup.
 
-- Updates and version notes: <https://github.com/wiobyrne/teaching-assistant/releases>
+The repo covers both:
 
-If you want to rebuild from source, clone the repository and follow the setup notes in the README.
-
-## Why we separate image and source
-
-Some people just want a working download.
-Other people want to inspect the files, tweak the profile, or rebuild the image for their own use.
-
-That is why the repo points to both:
-
-- the downloadable image for convenience
-- the source repo for transparency and customization
+- downloadable image for convenience
+- source repo for transparency and customization
 
 ## If GitHub is unavailable
 
-The image is intended to be easy to carry on an SD card too.
-That gives you a backup path when network access or GitHub is unreliable.
+The image is easy to carry on an SD card as a backup.

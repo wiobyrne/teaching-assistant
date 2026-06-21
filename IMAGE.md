@@ -2,35 +2,32 @@
 
 This is the page most teachers should start with.
 
-## What this page is for
+## Where the image lives
 
-Use this page when you want the ready-to-flash Raspberry Pi image.
-
-## Where the image will live
-
-When the image is published, it should be attached to the GitHub Releases page:
+When the image is published, it will be attached to the GitHub Releases page:
 
 - Latest image: <https://github.com/wiobyrne/teaching-assistant/releases/latest>
 
 ## What the image contains
 
-The starter image is intended to include:
+The starter image includes:
 
 - Raspberry Pi OS
 - Ollama
-- a small local model
-- `teaching-assistant/`
+- `qwen2.5:1.5b`
+- `~/teaching-assistant/`
 - starter `teacher.md`
+- `ta.py`
 - empty `history/`
 
-It should not include old testing history, saved outputs, or hidden build leftovers.
+It does not include old testing history, saved outputs, or build leftovers.
+`outputs/` and `memory.md` are not part of the starter image.
 
 ## If you want the source instead
 
 - Source repo: <https://github.com/wiobyrne/teaching-assistant>
 
-## If GitHub is down
+## If GitHub is unavailable
 
-The image is meant to be easy to carry on an SD card too.
+The image is easy to carry on an SD card.
 That gives teachers a backup path when network access is unreliable.
-

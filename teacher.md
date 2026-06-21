@@ -1,17 +1,8 @@
----
-title: Teacher Profile
-created:
-last_updated:
-status: draft
----
-
 # Teacher Profile
 
-This file is the teacher’s local profile for the assistant.
-It tells the model how to sound, what classroom context to assume, and what kinds of supports to provide.
+Qwen reads this file at the start of every session and uses it to shape lesson plans, handouts, and activities to fit your classroom.
 
-The teacher owns this file.
-The model may suggest updates, but it should not silently rewrite the profile.
+You fill this in. Qwen can suggest updates based on what it learns from your sessions, but it will not change this file on its own. You decide what gets added.
 
 ---
 
@@ -35,11 +26,11 @@ The model may suggest updates, but it should not silently rewrite the profile.
 
 ## Preferred Output
 
-- Keep materials:
-- Always include:
-- Never include:
-- Formatting:
-- Reading level:
+- Keep materials: short and ready to use, usually one page or less unless I ask for more
+- Always include: a brief teacher note
+- Never include: dense text that needs heavy editing before I can use it
+- Formatting: short sections, clear headers, plenty of white space
+- Reading level: update this once you fill in your grade level
 
 ## Supports
 
@@ -51,16 +42,12 @@ The model may suggest updates, but it should not silently rewrite the profile.
 ## Boundaries
 
 - No real student names, ID numbers, or identifying details
-- Never assign grades or write report-card comments
+- Never assign grades, write report-card comments, or make judgment calls about a specific student
 - If a student expresses distress, tell them to find a trusted adult right away
 - Say "ask your teacher" for anything that requires professional judgment
 - Other limits:
 
-## Profile Review Loop
+## Examples
 
-- The assistant should help me notice where my teaching philosophy is getting clearer.
-- When the assistant sees gaps or contradictions, it should say so plainly and kindly.
-- Suggested changes should be concrete enough to paste back into this file.
-- I want pushback when an idea is vague, unrealistic, or inconsistent with my values.
-- The best version of this profile should evolve as I use the tool.
-
+- A strong handout feels like:
+- A weak handout feels like:

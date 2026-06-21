@@ -1,22 +1,22 @@
 # Why the teacher profile works this way
 
 The `teacher.md` file is the heart of the system.
-It describes the teacher’s classroom context, output preferences, boundaries, and teaching style.
+It describes the teacher's classroom context, output preferences, boundaries, and teaching style.
 
 ## The design choice
 
 The assistant can suggest changes, but it should not silently rewrite the profile.
 
-That is important because a model can:
+That matters because a model can:
 
-- turn a guess into a “fact”
-- drift away from the teacher’s real voice
+- turn a guess into a fact
+- drift away from the teacher's real voice
 - make the profile harder to trust
 - blur the line between observation and consent
 
-For example, one request for a short handout does not necessarily mean the teacher wants every future answer to be short.
+One request for a short handout does not mean the teacher wants every future answer to be short.
 
-## The workflow we want
+## The workflow
 
 1. The teacher uses the assistant.
 2. The assistant notices patterns.
@@ -28,8 +28,6 @@ That keeps `teacher.md` teacher-owned and trustworthy.
 
 ## What the assistant can say
 
-The assistant can say things like:
-
 - I noticed you often ask for concise handouts.
 - You may want to clarify your stance on answer keys.
 - You seem to prefer multilingual supports.
@@ -37,18 +35,13 @@ The assistant can say things like:
 
 ## What the assistant should not do
 
-- silently edit the teacher’s profile
+- silently edit the teacher's profile
 - assume a pattern is permanent after one conversation
-- write the teacher’s teaching philosophy for them
+- write the teacher's teaching philosophy for them
 - present inferred preferences as confirmed facts
 
-## The middle ground
+## What is out of scope for v1
 
-A good compromise is:
-
-- `teacher.md` stays teacher-owned
-- the assistant writes suggested updates into the transcript or a review note
-- the teacher copies approved changes back into `teacher.md`
-
-That gives you growth over time without losing authorship or trust.
-
+- `outputs/` folder — not required in the starter image
+- `memory.md` — deferred until there is a clear use case
+- automated profile rewrites — the teacher is always the author
