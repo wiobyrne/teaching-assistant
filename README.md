@@ -12,9 +12,11 @@ This repo explains:
 
 ## Start here
 
-1. Read [Download the image](./DOWNLOAD.md)
-2. Read [Why the teacher profile works this way](./docs/teacher-profile.md)
-3. Open [`teacher.md`](./teacher.md) to see the starter profile template
+1. Read [Download the image](./IMAGE.md)
+2. Read [Where the image, updates, and source live](./DOWNLOAD.md)
+3. Read [Which model and why](./docs/model.md)
+4. Read [Why the teacher profile works this way](./docs/teacher-profile.md)
+5. Open [`teacher.md`](./teacher.md) to see the starter profile template
 
 ## What this is
 
@@ -65,7 +67,9 @@ That keeps `teacher.md` trustworthy as a living profile instead of letting it qu
 ## What you get in the repo
 
 - [`teacher.md`](./teacher.md) - starter teacher profile template
+- [`IMAGE.md`](./IMAGE.md) - where to download the starter image
 - [`DOWNLOAD.md`](./DOWNLOAD.md) - where to get the image, updates, and source
+- [`docs/model.md`](./docs/model.md) - the model choice and useful links
 - [`docs/teacher-profile.md`](./docs/teacher-profile.md) - the philosophy behind the profile workflow
 - this `README.md` - overview, setup, and workflow
 

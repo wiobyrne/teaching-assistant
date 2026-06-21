@@ -1,6 +1,6 @@
 # Download the image
 
-This page is the quick handoff for teachers who want the Raspberry Pi starter image.
+This page is the quick handoff for teachers who want the Raspberry Pi starter image, plus the source and update links.
 
 ## What to download
 
@@ -11,6 +11,10 @@ When the image is published, the latest version should be attached to the repo r
 If you want the source instead of the prebuilt image:
 
 - Source repo: <https://github.com/wiobyrne/teaching-assistant>
+
+If you want to know which model the image is built around:
+
+- Model page: <https://github.com/wiobyrne/teaching-assistant/blob/main/docs/model.md>
 
 ## What the image is for
 
@@ -47,4 +51,3 @@ That is why the repo points to both:
 
 The image is intended to be easy to carry on an SD card too.
 That gives you a backup path when network access or GitHub is unreliable.
-
